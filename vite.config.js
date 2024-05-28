@@ -24,5 +24,5 @@ export default defineConfig({
 			},
 		},
 	},
-	cssCodeSplit: false, // 开启 CSS 代码拆分
+	cssCodeSplit: true, // 开启 CSS 代码拆分
 });

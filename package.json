@@ -6,7 +6,8 @@
 	"scripts": {
 		"dev": "vite --host",
 		"watch": "vite build --watch",
-		"build": "vite build && node ./src/build/build.js",
+		"build": "vite build",
+		"build-all": "vite build && node ./src/build/build.js",
 		"preview": "vite preview",
 		"lint": "eslint ./src/",
 		"lint:fix": "eslint ./src/ --fix"
